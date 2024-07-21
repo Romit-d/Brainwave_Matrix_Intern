@@ -74,7 +74,7 @@ int main(){
     srand(time(NULL));
     double balance = rand() % 10001;
 
-    cout<<"Enter the Account Number - ";
+    cout<<"Enter the Account Number - ";        //the account no. must be of 10 digits
     cin>>accno;
     if(!checkaccno(accno)){
         return 1;
